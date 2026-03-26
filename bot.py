@@ -161,31 +161,5 @@ python-telegram-bot==20.7
 yt-dlp
 ```
 
----
 
-## `Procfile` (para o Railway)
-```
-worker: python bot.py
-```
-
----
-
-## Como subir no Railway
-
-**1. Crie o repositório no GitHub** com os 3 arquivos acima.
-
-**2. No Railway:**
-- Acesse [railway.app](https://railway.app) e faça login com GitHub
-->
-- Selecione seu repositório
-
-**3. Adicione a variável de ambiente:**
-- Vá em **Variables** e adicione:
-```
-  TOKEN = seu_token_aqui
-```
-
-**4. Adicione o FFmpeg:**
-- Vá em **Settings → Nixpacks** e adicione o pacote:
-```
   ffmpeg
