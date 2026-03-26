@@ -176,7 +176,7 @@ worker: python bot.py
 
 **2. No Railway:**
 - Acesse [railway.app](https://railway.app) e faça login com GitHub
-- Clique em **New Project → Deploy from GitHub repo**
+->
 - Selecione seu repositório
 
 **3. Adicione a variável de ambiente:**
